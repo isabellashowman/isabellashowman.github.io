@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isabella Showman</title>
+  <meta name="description" content="Isabella Showman — personal academic website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="index.html">Isabella Showman</a></h1>
+      <nav class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="banner"></div>
+
+  <main>
+    <div class="container layout">
+      <aside class="sidebar">
+        <!-- Put your photo at images/profile.jpg (a square crop works best) -->
+        <img class="profile-photo" src="images/profile.jpg" alt="Photo of Isabella Showman"
+             onerror="this.removeAttribute('src')">
+        <ul class="sidebar-links">
+          <li><a href="cv.html">Curriculum vitae</a></li>
+          <li><a href="mailto:ishowman@uw.edu">Email</a></li>
+          <li><a href="https://github.com/isabellashowman" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/isabella-showman" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </aside>
+
+      <section class="content">
+        <h2>Hi! I’m Isabella</h2>
+        <p>I’m currently a postbac in the Department of Atmospheric and Climate Science at the University of Washington, working in the Turner Group to identify gas emission craters in the Siberian permafrost using remote sensing data.</p>
+        <p>My research interests are how physical mechanisms in polar environments change over time and respond to climate change. I have used satellites to observe landscape change, from observing northern Alaska sea ice retreat structure to using remote sensing signatures to locate small gas emission craters in the permafrost in northern Russia.</p>
+        <p>I graduated with my B.S. in Atmospheric and Climate Science: Climate from the University of Washington with two minors in Oceanography and Environmental Studies. My current work is supported by the Program on Climate Change (PCC) Climate Science Research Acceleration Award and UW’s Department of Atmospheric and Climate Science.</p>
+        <p>Beyond research, I enjoy hiking, skiing, sports, and game nights with friends.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; <span id="year">2026</span> Isabella Showman</div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

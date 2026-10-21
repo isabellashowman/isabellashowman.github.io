@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Isabella Showman</title>
+  <meta name="description" content="Isabella Showman — personal academic website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="index.html">Isabella Showman</a></h1>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="banner"></div>
+
+  <main>
+    <div class="container layout">
+      <aside class="sidebar">
+        <!-- Put your photo at images/profile.jpg (a square crop works best) -->
+        <img class="profile-photo" src="images/profile.jpg" alt="Photo of Isabella Showman"
+             onerror="this.removeAttribute('src')">
+        <ul class="sidebar-links">
+          <li><a href="cv.html">Curriculum vitae</a></li>
+          <li><a href="mailto:ishowman@uw.edu">Email</a></li>
+          <li><a href="https://github.com/isabellashowman" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/isabella-showman" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </aside>
+
+      <section class="content">
+        <h2>Research</h2>
+        <p>I use satellite remote sensing to observe permafrost change and sea ice movement. Upon starting graduate school, I hope to expand on what I have already done to include modeling in an effort to better understand ocean-atmosphere-ice interactions. Below is an overview of my main research projects.</p>
+
+        <h3>Gas emission crater detection in Siberian permafrost</h3>
+        <p>Unique crater features began appearing in the Siberian permafrost in 2014, but the mechanisms driving the gas emission crater eruption remain contested. Working with Dr. Alex Turner, I am finding ways to identify these crater features using Landsat 4-9 and Sentinel-2 imagery, a necessary precursor to ask future questions about why they form.</p>
+
+        <h3>Sea ice retreat near river mouths</h3>
+        <p>Our understanding of how landfast sea ice retreats on small-scales is limited by cloud-filled imagery. I used Sentinel-1 SAR to observe sea ice melt timing as a proxy for freshet event timing in recent history, working to improve our understanding of how river flux output influences sea ice break-up.</p>
+
+        <h3>Dissolved oxygen vulnerability thresholds for key Puget Sound species</h3>
+        <p>I completed a comprehensive literature review and analysis on marine species dissolved oxygen vulnerability thresholds, synthesizing values to contextualize human nutrient input threats in Puget Sound.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; <span id="year">2026</span> Isabella Showman</div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
